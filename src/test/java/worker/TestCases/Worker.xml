@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="workerTest">
+		<classes>
+			<class name="login.TestCases.testLogin"></class>
+			<class name="worker.TestCases.TC_87_SearchTest"></class>
+			<class name="worker.TestCases.TC_97_WorkerPageTest"></class>
+			<class name="worker.TestCases.TC_93_DeactivateWorkerPageTest"></class>
+			<class name="worker.TestCases.TC_92_ActivateWorkerPageTest"></class>
+			<class name="worker.TestCases.TC_88_AssignDevicePageTest"></class>
+			<class name="worker.TestCases.TC_89_AssignSitePageTest"></class>
+			<class name="worker.TestCases.TC_90_EditWorkerPageTest"></class>
+			<class name="worker.TestCases.TC_91_DeleteWorker"></class>
+			<class name="worker.TestCases.TC_94_WorkerPaginationTest"></class>
+			<class name="worker.TestCases.TC_95_ColumnSortingTesting"></class>
+			<class name="worker.TestCases.TC_96_BulkUploadTest"></class>
+
+		</classes>
+	</test>
+</suite>

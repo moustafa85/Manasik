@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="Health Vitals Test">
+		<classes>
+			<class name="HealthVitals.TestCases.GenerateHealthVitalstTest"></class>
+			<class name="HealthVitals.TestCases.HealthVitalsDashboardpage"></class>
+			<class name="HealthVitals.TestCases.AlertsSections_HealthVitalsDashboardPage"></class>
+			<class name="HealthVitals.TestCases.HighSkinTemp_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.ListofWorkers_ValidateTheColumns_HighSkinTemp"></class>
+			<class name="HealthVitals.TestCases.NormalSkinTemp_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.LowSkinTemp_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.HighBloodPressure_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.NormalBloodPressure_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.LowBloodPressure_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.HighHeartRate_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.NormalHeartRate_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.LowHeartRate_HealthVitals"></class>
+			<class name="HealthVitals.TestCases.HealthVitalsDataRangeTest"></class>
+		</classes>
+	</test>
+</suite>

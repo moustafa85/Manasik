@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionTesting">
+<parameter name="withLogin" value="yes"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+    <listeners>
+        <listener class-name="Pages.utils.TestListener" />
+    </listeners>
+    <test name="Alert Management tests">
+        <classes>
+            <class name="AlertMng.TestCases.generateAlertsTest"></class>
+            <class name="AlertMng.TestCases.TC_85_FilterTest"></class>
+            <class name="AlertMng.TestCases.TC_86_SearchTest"></class>
+            <class name="AlertMng.TestCases.TC_87_OpenAlertAssignUserPageTest"></class>
+
+            <class name="AlertMng.TestCases.TC_89_ResolveAlertPageTest"></class>
+            <class name="AlertMng.TestCases.TC_90_AlertMngPaginationTest"></class>
+
+        </classes>
+    </test>
+    <test name="usersTest">
+        <classes>
+            <class name="users.TestCases.TC_110_FilterTest"></class>
+            <class name="users.TestCases.TC_111SearchTest"></class>
+            <class name="users.TestCases.TC_112_AddUserPageTest"></class>
+            <class name="users.TestCases.TC_113_ActivateUserPageTest"></class>
+            <class name="users.TestCases.TC_114_DeactivateUsersPageTest"></class>
+            <class name="users.TestCases.TC_115_AssignSitePageTest"></class>
+            <class name="users.TestCases.TC_116_EditUserPageTest"></class>
+            <class name="users.TestCases.TC_117_UpdatePasswordTest"></class>
+            <class name="users.TestCases.TC_118_DeleteUserTest"></class>
+            <class name="users.TestCases.UserPaginationTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="workerTest">
+        <classes>
+            <class name="worker.TestCases.TC_97_WorkerPageTest"></class>
+            <class name="login.TestCases.testLogin"></class>
+            <class name="worker.TestCases.TC_87_SearchTest"></class>
+            <class name="worker.TestCases.TC_88_AssignDevicePageTest"></class>
+            <class name="worker.TestCases.TC_89_AssignSitePageTest"></class>
+            <class name="worker.TestCases.TC_90_EditWorkerPageTest"></class>
+            <class name="worker.TestCases.TC_91_DeleteWorker"></class>
+            <class name="worker.TestCases.TC_92_ActivateWorkerPageTest"></class>
+            <class name="worker.TestCases.TC_93_DeactivateWorkerPageTest"></class>
+            <class name="worker.TestCases.TC_94_WorkerPaginationTest"></class>
+            <class name="worker.TestCases.TC_95_ColumnSortingTesting"></class>
+            <class name="worker.TestCases.TC_96_BulkUploadTest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Health Vitals Test">
+        <classes>
+<!--            <class name="HealthVitals.TestCases.GenerateHealthVitalstTest"></class>-->
+            <class name="HealthVitals.TestCases.HealthVitalsDashboardpage"></class>
+            <class name="HealthVitals.TestCases.AlertsSections_HealthVitalsDashboardPage"></class>
+
+            <class name="HealthVitals.TestCases.ListofWorkers_ValidateTheColumns_HighSkinTemp"></class>
+            <class name="HealthVitals.TestCases.NormalSkinTemp_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.NormalBloodPressure_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.NormalHeartRate_HealthVitals"></class>
+            <class name="HealthVitals.TestCases.HealthVitalsDataRangeTest"></class>
+        </classes>
+    </test>
+    <test name="Login Test">
+        <classes>
+            <class name="login.TestCases.TC_119_MultipleLoginPageTest"></class>
+        </classes>
+    </test>
+
+</suite>

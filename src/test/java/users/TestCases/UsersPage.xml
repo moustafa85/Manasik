@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="usersTest">
+		<classes>
+			<class name="users.TestCases.TC_110_FilterTest"></class>
+			<class name="users.TestCases.TC_111SearchTest"></class>
+			<class name="users.TestCases.TC_112_AddUserPageTest"></class>
+			<class name="users.TestCases.TC_113_ActivateUserPageTest"></class>
+			<class name="users.TestCases.TC_114_DeactivateUsersPageTest"></class>
+			<class name="users.TestCases.TC_115_AssignSitePageTest"></class>
+			<class name="users.TestCases.TC_116_EditUserPageTest"></class>
+			<class name="users.TestCases.TC_117_UpdatePasswordTest"></class>
+			<class name="users.TestCases.TC_118_DeleteUserTest"></class>
+			<class name="users.TestCases.UserPaginationTest"></class>
+
+		</classes>
+	</test>
+</suite>

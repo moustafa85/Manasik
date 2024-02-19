@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RegresionTesting">
+
+	<test name="Alert Management tests">
+		<classes>
+			<class name="AlertMng.TestCases.generateAlertsTest"></class>
+			<class name="AlertMng.TestCases.TC_85_FilterTest"></class>
+			<class name="AlertMng.TestCases.TC_86_SearchTest"></class>
+			<class name="AlertMng.TestCases.TC_87_OpenAlertAssignUserPageTest"></class>
+			<class name="AlertMng.TestCases.TC_88_OpenAlertReassignUserPageTest"></class>
+			<class name="AlertMng.TestCases.TC_89_ResolveAlertPageTest"></class>
+			<class name="AlertMng.TestCases.TC_90_AlertMngPaginationTest"></class>
+			<class name="AlertMng.TestCases.TC_91_ColumnSortingTest"></class>
+		</classes>
+	</test>
+</suite>
